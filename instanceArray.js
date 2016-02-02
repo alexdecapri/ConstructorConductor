@@ -9,7 +9,7 @@ var User = function(name, email, pw){
   this.name = name;
   this.email = email;
   this.pw = pw;
-}
+};
 
 //Create an Array called 'users' that will store all our instances of User.
 
