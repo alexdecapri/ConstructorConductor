@@ -17,8 +17,8 @@ var friend3 = new Person("hannah", 23);
 //Now add a sayName method on your Person class that will alert the 
 //name of whatever Person instance called it.
 
-Person.sayName() {
+Person.prototye.sayName = function() {
 	alert(this.name);
 }
 
-//how do I add this into the Person constructor???
+//not right
