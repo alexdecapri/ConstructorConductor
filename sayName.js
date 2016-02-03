@@ -17,8 +17,6 @@ var friend3 = new Person("hannah", 23);
 //Now add a sayName method on your Person class that will alert the 
 //name of whatever Person instance called it.
 
-Person.prototye.sayName = function() {
+Person.prototype.sayName = function() {
 	alert(this.name);
 }
-
-//not right
